@@ -36,7 +36,7 @@ $ pytest
 
 ## Example
 
-See (Example.ipynb)[Example.ipynb]
+See [Example.ipynb](Example.ipynb)
 
 
 ## CITATION
@@ -48,4 +48,4 @@ Friedlander, Benjamin, and Boaz Porat. "The modified Yule-Walker method of ARMA 
 
 ## LICENSE
 
-See (LICENSE)[LICENSE]
+See [LICENSE](LICENSE)
