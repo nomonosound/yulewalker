@@ -38,6 +38,14 @@ $ pytest
 
 See (Example.ipynb)[Example.ipynb]
 
+
+## CITATION
+
+If you are using this code in your research please cite the original paper here:
+```
+Friedlander, Benjamin, and Boaz Porat. "The modified Yule-Walker method of ARMA spectral stimation." IEEE Transactions on Aerospace and Electronic Systems 2 (1984): 158-173.
+```
+
 ## LICENSE
 
 See (LICENSE)[LICENSE]
