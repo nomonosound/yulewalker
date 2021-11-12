@@ -1,0 +1,9 @@
+build
+build/*
+dist
+dist/*
+yulewalker.egg-info
+yulewalker.egg-info/*
+yulewalker/__pycache__
+yulewalker/__pycache__/*
+.git
