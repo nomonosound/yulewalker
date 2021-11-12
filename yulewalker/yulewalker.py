@@ -213,17 +213,6 @@ def yulewalk(filter_order, frequencies, magnitudes, npt=512):
     return A, B
 
 
-# if __name__ == "__main__":
-#     freqs = np.array([0.0, 100.0, 100.0, 150.0, 150, 200])
-
-#     # freq = np.array([0.0, 0.4, 0.4, 0.6, 0.6, 1.0])
-#     freq = 2 * freqs / 400
-#     mag = np.array([0.0, 0.0, 1.0, 1.0, 0.0, 0.0])
-#     Norder = 8
-
-#     a, b = yulewalk(Norder, freq, mag, npt=512)
-# plot_and_save_freq_response(b, a, freq, mag, "debug.png", sample_rate=400)
-
 if __name__ == "__main__":
     import doctest
 

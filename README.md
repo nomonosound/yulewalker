@@ -8,22 +8,30 @@ the same license ([CeCILLv2.0](https://opensource.org/licenses/CECILL-2.1)).
 
 ## Install
 
-Clone this repository, then run:
+### Using pip
 
 ```
-python setup.py install
+$ pip install yulewalker
+```
+
+### By cloning this repository
+
+```
+$ git clone https://github.com/mmxgn/yulewalker.git
+$ cd yulewalker
+$ python setup.py install
 ```
 
 ## Testing
 
 Using `doctest`:
 ```
-python -m yulewalker.yulewalker -v
+$ python -m yulewalker.yulewalker -v
 ```
 
-Using `pytest``:
+Using `pytest`:
 ```
-pytest
+$ pytest
 ```
 
 ## Example

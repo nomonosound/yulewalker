@@ -7,3 +7,4 @@ yulewalker.egg-info/*
 yulewalker/__pycache__
 yulewalker/__pycache__/*
 .git
+.eggs
