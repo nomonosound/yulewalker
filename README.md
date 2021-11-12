@@ -1,4 +1,4 @@
-# Yule-Walker methor for filter design for an arbritrary magnitude response
+# Yule-Walker method for filter design for an arbritrary magnitude response
 
 ## Description
 
