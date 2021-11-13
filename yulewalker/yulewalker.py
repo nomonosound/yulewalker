@@ -57,9 +57,15 @@ def interpolate_freq_mag(
     return new_freq, new_mag
 
 
-def polystab(p):
+def polystab(p: np.ndarray) -> np.ndarray:
     """
     Reflects the roots of polynomial `p` that are outside the unit circle back inside.
+
+    >>> polystab(np.array([[1.,2.,1.]]))
+    array([1., 2., 1.])
+
+    >>> polystab(np.array([[1.,2.,1.01]]))
+    array([1.        , 1.98019802, 0.99009901])
     """
     if p.ndim == 2 and (p.shape[0] == 1 or p.shape[1] == 1):
         p = p.flatten()
@@ -76,7 +82,9 @@ def polystab(p):
     return b
 
 
-def numf(impulse_response, denominator, numerator_order):
+def numf(
+    impulse_response: np.ndarray, denominator: np.ndarray, numerator_order: int
+) -> np.ndarray:
     """
     Find the numberator of the impulse response `impulse_response` of a frequency
     response H = numerator/denominator.
@@ -93,7 +101,9 @@ def numf(impulse_response, denominator, numerator_order):
     return b
 
 
-def yulewalk(filter_order, frequencies, magnitudes, npt=512):
+def yulewalk(
+    filter_order: int, frequencies: np.ndarray, magnitudes: np.ndarray, npt: int = 512
+) -> Tuple[np.ndarray, np.ndarray]:
     """
     Recursive filter-design of an arbritrary frequency response using the
     modified Yule-Walker method [1].

@@ -11,9 +11,9 @@ def read(fname):
 
 setuptools.setup(
     name="yulewalker",
-    version="0.1",
+    version="0.1.1",
     author="Emmanouil Theofanis Chourdakis",
-    author_email="eruyome@gmail.com",
+    author_email="emmanouil.chourdakis@nomono.co",
     description="IIR Filter design using the modified Yule-Walker method",
     classifiers=[
         "Topic :: Scientific/Engineering",
@@ -24,4 +24,8 @@ setuptools.setup(
     long_description=read("README.md"),
     license="CeCILL-2.1",
     keywords="yulewalk yulewalker iir signal-processing dsp",
+    install_requires=[
+        "numpy>=1.19.2",
+        "scipy>=1.5.2",
+    ],
 )
