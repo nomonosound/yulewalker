@@ -1,4 +1,4 @@
-# Yule-Walker method for IIR filter design for an arbritrary magnitude response
+# Yule-Walker method for IIR filter design given an arbritrary magnitude response
 
 ## Description
 
@@ -49,3 +49,8 @@ Friedlander, Benjamin, and Boaz Porat. "The modified Yule-Walker method of ARMA 
 ## License
 
 See [LICENSE](LICENSE)
+
+
+## Acknowledgements
+
+Thanks to [Nonomo](http://www.nomono.co) for backing this library.
