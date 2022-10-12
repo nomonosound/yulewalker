@@ -13,7 +13,7 @@ jobs:
                          flake8-comprehensions isort mypy pytest pyupgrade safety
       - run: bandit --recursive --skip B101 .
       - run: black --check . || true
-      - run: codespell --ignore-words-list="fO,therefor"
+      - run: codespell --ignore-words-list="fo,therefor"
       - run: flake8 --ignore=E203,F401,F403 --max-complexity=10
                     --max-line-length=125 --show-source --statistics .
       - run: isort --check-only --profile black . || true
