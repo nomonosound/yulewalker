@@ -1,8 +1,8 @@
-# Yule-Walker method for IIR filter design given an arbritrary magnitude response
+# Yule-Walker method for IIR filter design given an arbitrary magnitude response
 
 ## Description
 
-This implements a modified yule-walker method for estimating the coefficients of an IIR filter that best matches an arbritrary frequency response. This is a port
+This implements a modified yule-walker method for estimating the coefficients of an IIR filter that best matches an arbitrary frequency response. This is a port
 from sci-lab's version here: [yulewalk.sci](https://github.com/scilab/scilab/blob/master/scilab/modules/signal_processing/macros/yulewalk.sci) and is distributed by
 the same license ([CeCILLv2.0](https://opensource.org/licenses/CECILL-2.1)).
 
