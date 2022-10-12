@@ -105,13 +105,13 @@ def yulewalk(
     filter_order: int, frequencies: np.ndarray, magnitudes: np.ndarray, npt: int = 512
 ) -> Tuple[np.ndarray, np.ndarray]:
     """
-    Recursive filter-design of an arbritrary frequency response using the
+    Recursive filter-design of an arbitrary frequency response using the
     modified Yule-Walker method [1].
 
     :param filter_order: Estimated filter order.
     :param frequencies: Array of frequencies where the points of magnitude are positioned.
     :param magnitudes: The (linear) magnitudes at points defined by `frequencies`.
-    :param N: Number points to use when estimating the frequency reponse.
+    :param N: Number points to use when estimating the frequency response.
 
     [1] Friedlander, Benjamin, and Boaz Porat. "The modified Yule-Walker method of ARMA
         spectral estimation."
