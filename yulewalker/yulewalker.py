@@ -150,7 +150,7 @@ def yulewalk(
             nb >= 0 and ne <= npt
         ), f"nb={nb}, ne={ne} - Too abrupt change near end of frequency range"
 
-        j = np.arange(nb, ne).astype(np.int)
+        j = np.arange(nb, ne).astype(int)
         if ne == nb:
             inc = 0
         else:
@@ -175,7 +175,7 @@ def yulewalk(
     n2 = int((n + 1) / 2)
     nb = filter_order
     nr = 4 * filter_order
-    nt = np.arange(0, nr).astype(np.int)
+    nt = np.arange(0, nr).astype(int)
     R = np.real(np.fft.ifft(Ht * Ht))
     R = R[:, :nr] * (0.54 + 0.46 * np.cos(np.pi * nt / (nr - 1)))
     Rwindow = np.hstack(
